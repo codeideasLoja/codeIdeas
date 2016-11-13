@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require animations
+//= require jquery.nicescroll
 //= require_tree .
 
 // Preloader

@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Use jQuery Nicescroll plugin
+gem 'nicescroll-rails'
+
 #Use owl carousel js animations
 gem 'owlcarousel-rails'
 
