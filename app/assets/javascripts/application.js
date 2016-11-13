@@ -16,6 +16,9 @@
 //= require bootstrap-sprockets
 //= require animations
 //= require jquery.nicescroll
+//= require appear
+//= require waypoints
+//= require counterup
 //= require_tree .
 
 // Preloader
