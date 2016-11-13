@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require animations
+//= require plugins
 //= require jquery.nicescroll
 //= require appear
 //= require waypoints

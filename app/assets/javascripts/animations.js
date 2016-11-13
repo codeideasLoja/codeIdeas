@@ -30,6 +30,13 @@ jQuery(document).ready(function($){
 });
 */
 
+jQuery(document).ready(function( $ ) {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+});
+
 
 
 
@@ -49,6 +56,11 @@ jQuery(document).ready(function () {
             }, 400, "linear");
         });
     });
+
+
+
+
+
 
     /*----------------------------------------------------*/
     /* Nuestro equipo
@@ -121,6 +133,7 @@ jQuery(document).ready(function () {
             }
         }
     })
+
 
 
 
