@@ -1,0 +1,196 @@
+<%= javascript_include_tag 'animations.js', 'data-turbolinks-track': 'reload' %>
+
+<!-- Slider -->
+<section id="slider_sec">
+  <div class="container">
+    <div class="row">
+      <div class="slider">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicadores -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper para slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="wrap_caption">
+                <div class="caption_carousel">
+                  <h1>Somos code().iDeas</h1>
+                  <p>Error 404. Impossible not Found</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="wrap_caption">
+                <div class="caption_carousel">
+                  <h1>Somos Creativos</h1>
+                  <p>Plasmamos sus ideas en diseños y software</p>
+                </div>
+              </div>
+            </div>
+            <div class="item ">
+              <div class="wrap_caption">
+                <div class="caption_carousel">
+                  <h1>Un Gran Equipo</h1>
+                  <p>Contamos con un equipo de desarrollo altamente capacitado</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controles -->
+          <a class="left left_crousel_btn" href="#carousel-example-generic" role="button" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right right_crousel_btn" href="#carousel-example-generic" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Seccion Acerca -->
+<section id="abt_sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
+        <div class="title_sec">
+          <h1>ACERCA</h1>
+          <h2>SOMOS UN ESTUDIO DE SOFTWARE DE ECUADOR</h2>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
+        <div class="abt">
+          <p> Diseño y desarrollo web a la medida, con las mejores tecnologías, ofrecemos usabilidad, escalabilidad,
+            seguridad y eficiencia</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Seccion de counters -->
+
+<section id="counting_sec">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="counting_sl">
+          <i class="fa fa-user"></i>
+          <h2 class="counter"><%= @node.contClientes %></h2>
+          <h4>Clientes Satisfechos</h4>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="counting_sl">
+          <i class="fa fa-desktop"></i>
+          <h2 class="counter"><%= @node.contProyectos %></h2>
+          <h4>Proyectos Completados</h4>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="counting_sl">
+          <i class="fa fa-ticket"></i>
+          <h2 class="counter"><%= @node.contTickets %></h2>
+          <h4>Tickets Respondidos</h4>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="counting_sl">
+          <i class="fa fa-clock-o"></i>
+          <h2 class="counter"><%= @node.contHoras %></h2>
+          <h4>Horas de Desarrollo</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Seccion de skills -->
+
+<section id="skill_sec">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs12 ">
+        <div class="title_sec">
+          <h1>Nuestras habilidades</h1>
+          <h2>Poseemos una amplia gama de conocimientos disponibles para nuestros clientes</h2>
+        </div>
+      </div>
+
+      <div class="skills progress-bar1">
+
+        <ul class="col-md-6 col-sm-12 col-xs-12 wow fadeInLeft">
+
+          <li class="progress">
+            <div class="progress-bar" data-width="<%= @node.skillPhp %>">
+              Web PHP <strong><%= @node.skillPhp %>%</strong>
+            </div>
+          </li>
+
+          <li class="progress">
+            <div class="progress-bar" data-width="<%= @node.skillDiseno %>">
+              Diseño Gráfico <strong> <%= @node.skillDiseno %>%</strong>
+            </div>
+          </li>
+          <li class="progress">
+            <div class="progress-bar" data-width="<%= @node.skillHtmlCSS %>">
+              Diseño HTML5/CSS3 <strong> <%= @node.skillHtmlCSS %>% </strong>
+            </div>
+          </li>
+          <li class="progress">
+            <div class="progress-bar" data-width="<%= @node.skillMarketing %>">
+              Marketing y SEO <strong> <%= @node.skillMarketing %>% </strong>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight">
+
+          <li class="progress">
+            <div class="progress-bar" data-width="<%= @node.skillRails %>">
+              Web Ruby on Rails <strong> <%= @node.skillRails %>% </strong>
+            </div>
+          </li>
+
+          <li class="progress">
+            <div class="progress-bar" data-width="<%= @node.skillJavascript %>">
+              Web JavaScript <strong> <%= @node.skillJavascript %>% </strong>
+            </div>
+          </li>
+
+          <li class="progress">
+            <div class="progress-bar" data-width="<%= @node.skillDjango %>">
+              Web Django/Python <strong> <%= @node.skillDjango %>% </strong>
+            </div>
+          </li>
+
+          <li class="progress">
+            <div class="progress-bar" data-width="<%= @node.skillDesarrolloMovil %>">
+              Desarrollo Móvil <strong> <%= @node.skillDesarrolloMovil %>% </strong>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+  
