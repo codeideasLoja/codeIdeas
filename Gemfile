@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jquery-easing-rails'
+#Use owl carousel js animations
+gem 'owlcarousel-rails'
+
 gem 'autoprefixer-rails'
 gem 'sprockets-rails'
 #gem 'bootstrap-sass'
@@ -28,6 +30,7 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-easing-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
