@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Use Masonry and Isotope js
+gem 'masonry-rails'
+
 #Use jQuery Nicescroll plugin
 gem 'nicescroll-rails'
 

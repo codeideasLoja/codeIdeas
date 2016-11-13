@@ -14,13 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require showHide
+//= require isotope/jquery.isotope
 //= require animations
+//= require scrolling-nav
 //= require plugins
 //= require jquery.nicescroll
 //= require appear
 //= require waypoints
 //= require counterup
-//= require showHide
 //= require_tree .
 
 // Preloader
