@@ -30,6 +30,22 @@ jQuery(document).ready(function($){
 });
 */
 
+$(window).load(function() { // espera a que cargue el sitio
+    $('#status').fadeOut(); // desvanece la animacion de carga
+    $('#loader-wrapper').delay(200).fadeOut('slow'); // desvanece el fondo blanco
+    $('body').delay(200).css({'overflow-x':'hidden'});
+})
+
+$('.show_hide').showHide({
+    speed: 1000,  // speed you want the toggle to happen
+    easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
+    changeText: 1, // if you dont want the button text to change, set this to 0
+    showText: 'View',// the button text to show when a div is closed
+    hideText: 'Close' // the button text to show when a div is open
+
+});
+
+
 jQuery(document).ready(function( $ ) {
     $('.counter').counterUp({
         delay: 10,
@@ -38,6 +54,23 @@ jQuery(document).ready(function( $ ) {
 });
 
 
+//Hide Overflow of Body on DOM Ready //
+$(document).ready(function(){
+    $("body").css("overflow", "hidden");
+});
+
+// Show Overflow of Body when Everything has Loaded
+$(window).load(function(){
+    $("body").css("overflow", "visible");
+    var nice=$('html').niceScroll({
+        cursorborder:"5",
+        cursorcolor:"#00AFF0",
+        cursorwidth:"3px",
+        boxzoom:true,
+        autohidemode:true
+    });
+
+});
 
 
 jQuery(document).ready(function () {
@@ -140,3 +173,4 @@ jQuery(document).ready(function () {
 
 
 });
+

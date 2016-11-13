@@ -20,12 +20,8 @@
 //= require appear
 //= require waypoints
 //= require counterup
+//= require showHide
 //= require_tree .
 
 // Preloader
 
-$(window).load(function() { // espera a que cargue el sitio
-    $('#status').fadeOut(); // desvanece la animacion de carga
-    $('#loader-wrapper').delay(200).fadeOut('slow'); // desvanece el fondo blanco
-    $('body').delay(200).css({'overflow-x':'hidden'});
-})
