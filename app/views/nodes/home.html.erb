@@ -82,6 +82,45 @@
   </div>
 </section>
 
+
+<!-- Seccion de counters -->
+
+<section id="counting_sec">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="counting_sl">
+          <i class="fa fa-user"></i>
+          <h2 class="counter"><%= @node.contClientes %></h2>
+          <h4>Clientes Satisfechos</h4>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="counting_sl">
+          <i class="fa fa-desktop"></i>
+          <h2 class="counter"><%= @node.contProyectos %></h2>
+          <h4>Proyectos Completados</h4>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="counting_sl">
+          <i class="fa fa-ticket"></i>
+          <h2 class="counter"><%= @node.contTickets %></h2>
+          <h4>Tickets Respondidos</h4>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="counting_sl">
+          <i class="fa fa-clock-o"></i>
+          <h2 class="counter"><%= @node.contHoras %></h2>
+          <h4>Horas de Desarrollo</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!--  Seccion servicios -->
 <section id="pr_sec">
   <div class="container">
@@ -134,44 +173,6 @@
             <h2>Diseño Gráfico</h2>
             <p><%= @node.serviciosDiseno %></p>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Seccion de counters -->
-
-<section id="counting_sec">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="counting_sl">
-          <i class="fa fa-user"></i>
-          <h2 class="counter"><%= @node.contClientes %></h2>
-          <h4>Clientes Satisfechos</h4>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="counting_sl">
-          <i class="fa fa-desktop"></i>
-          <h2 class="counter"><%= @node.contProyectos %></h2>
-          <h4>Proyectos Completados</h4>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="counting_sl">
-          <i class="fa fa-ticket"></i>
-          <h2 class="counter"><%= @node.contTickets %></h2>
-          <h4>Tickets Respondidos</h4>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="counting_sl">
-          <i class="fa fa-clock-o"></i>
-          <h2 class="counter"><%= @node.contHoras %></h2>
-          <h4>Horas de Desarrollo</h4>
         </div>
       </div>
     </div>
