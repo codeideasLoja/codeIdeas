@@ -436,7 +436,7 @@ a:hover {
   width : 100%;
 }
 #slider_sec {
-  background-image : url("../img/slider.jpg");
+  background-image : url("slide3.jpg");
   background-position : center center;
   background-repeat : no-repeat;
   background-size : 100% 100%;
@@ -444,7 +444,7 @@ a:hover {
   width : 100%;
 }
 .left_crousel_btn, .right_crousel_btn {
-  color : #a4a4a4;
+  color : #e4e4e4;
   height : 20px;
   position : absolute;
   text-align : center;
@@ -454,15 +454,16 @@ a:hover {
   font-weight : normal;
 }
 .caption_carousel h1 {
+
   font-family : lato;
   font-size : 60px;
-  text-transform : capitalize;
-  color : #424242;
+  text-transform: none;
+  color : #ececec;
 }
 .caption_carousel p {
   font-family : lato;
   font-size : 14px;
-  color : #828282;
+  color : #ececec;
   border-top : 1px solid #fff;
   border-bottom : 1px solid #fff;
   display : inline;
