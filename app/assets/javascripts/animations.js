@@ -112,7 +112,7 @@ jQuery(document).ready(function () {
         margin:10,
         nav:true,
         autoplay:true,
-        smartSpeed:3000,
+        smartSpeed:2000,
         navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
         responsive:{
             0:{
@@ -125,7 +125,7 @@ jQuery(document).ready(function () {
                 items:4
             }
         }
-    })
+    });
 
     /*----------------------------------------------------*/
     /* Testimonios

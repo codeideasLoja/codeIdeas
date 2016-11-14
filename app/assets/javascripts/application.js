@@ -16,6 +16,7 @@
 //= require bootstrap-sprockets
 //= require showHide
 //= require isotope/jquery.isotope
+//= require owl.carousel
 //= require animations
 //= require scrolling-nav
 //= require plugins
