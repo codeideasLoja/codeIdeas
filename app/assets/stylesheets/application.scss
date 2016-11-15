@@ -576,6 +576,7 @@ a:hover {
 }
 #tm_sec {
   padding : 70px 0;
+  background : none 0 0 repeat scroll #f0f0f0;
 }
 .sngl_team h3 {
   font-size : 14px;
@@ -599,7 +600,7 @@ a:hover {
   text-transform : uppercase;
 }
 .all_team .owl-controls .owl-prev i {
-  color : #3399ff;
+  color : #BEDB39;
   font-size : 30px;
   position : absolute;
   top : 46%;
@@ -609,7 +610,7 @@ a:hover {
   position : absolute;
   top : 46%;
   font-size : 30px;
-  color : #3399FF;
+  color : #BEDB39;
   right : 0%;
 }
 .all_team .owl-controls .owl-dot {
@@ -624,7 +625,7 @@ a:hover {
   margin-right : 5px;
 }
 .all_team .owl-controls .owl-dot.active {
-  background-color : #03B0F0;
+  background-color : #BEDB39;
 }
 .all_team .owl-controls {
   display : inline-block;
@@ -747,14 +748,14 @@ a:hover {
   -webkit-transition: all 1s ease 0s
 }
 .sngl_pricing > h2 {
-  color : #fff;
+  color: #515050;
   font-size : 18px;
   margin : 0;
   padding : 30px;
   text-transform : uppercase;
 }
 .title_bg_1 {
-  background-image : url("../img/basic.jpg");
+  color: #141414;
   background-position : center center;
   background-repeat : no-repeat;
   background-size : 100% 100%;
@@ -788,7 +789,7 @@ a:hover {
   text-transform : none;
 }
 .btn.pricing_btn {
-  background : none 0 0 repeat scroll #00aff0;
+  background : none 0 0 repeat scroll #BEDB39;
   border : #666666 solid 1px;
   color : #fff;
   text-transform : uppercase;
