@@ -66,7 +66,7 @@ Rails.application.configure do
       user_name: ENV['GMAIL_USER'],
       password: ENV['GMAIL_PASS']
 
-  }
+    }
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
