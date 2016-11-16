@@ -13,11 +13,12 @@ class MessagesController < ApplicationController
     if @message.valid?
 
       MessageMailer.new_message(@message).deliver
-      redirect_to contacto_path, notice: "Tu mensaje ha sido enviado"
+      flash[:success] = "Tu mensaje ha sido envíado"
+      redirect_to contacto_path
 
     else
 
-      flash[:alert] = "Ha ocurrido un error al enviar el mensaje."
+      flash[:danger] = "No se puede enviar el mensaje."
       render :new
 
     end
